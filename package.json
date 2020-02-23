@@ -1,0 +1,20 @@
+{
+  "name": "webscrapping",
+  "version": "1.0.0",
+  "description": "Teaching myself Webscrapping",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Web",
+    "scrapping"
+  ],
+  "author": "Peter  Munyao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.1.1"
+  }
+}
