@@ -16,7 +16,7 @@ function scrapForNews() {
                     });
                 });
                 return newsHeadlines;
-            })
+            });
             browser.close();
             return resolve(urls);
         } catch (e) {
